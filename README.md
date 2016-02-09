@@ -3,7 +3,7 @@
 This repository exists to provide DataGravity, Inc., its employees, and its partners with a dictionary from which to commonly used nomenclature for any purposes seen fit.
 ## Dictionary
 
-###[A ]|[B]|[C]|[D]|[E]|[F]|[G]|[H]|[I]|[J]|[K]|[L]|[M]|[N]|[O]|[P]|[Q]|[R]|[S]|[T]|[U]|[V]|[W]|[X]|[Y]|[Z]
+###[A](../blob/master/dictionary/A.md)|[B](../blob/master/dictionary/B.md)|[C](../blob/master/dictionary/C.md)|[D](../blob/master/dictionary/D.md)|[E](../blob/master/dictionary/E.md)|[F](../blob/master/dictionary/F.md)|[G](../blob/master/dictionary/G.md)|[H](../blob/master/dictionary/H.md)|[I](../blob/master/dictionary/I.md)|[J](../blob/master/dictionary/J.md)|[K](../blob/master/dictionary/K.md)|[L](../blob/master/dictionary/L.md)|[M](../blob/master/dictionary/M.md)|[N](../blob/master/dictionary/N.md)|[O](../blob/master/dictionary/O.md)|[P](../blob/master/dictionary/P.md)|[Q](../blob/master/dictionary/Q.md)|[R](../blob/master/dictionary/R.md)|[S](../blob/master/dictionary/S.md)|[T](../blob/master/dictionary/T.md)|[U](../blob/master/dictionary/U.md)|[V](../blob/master/dictionary/V.md)|[W](../blob/master/dictionary/W.md)|[X](../blob/master/dictionary/X.md)|[Y](../blob/master/dictionary/X.md)|[Z](../blob/master/dictionary/Z.md)
 
 ## Contributors
 
