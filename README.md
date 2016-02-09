@@ -13,7 +13,7 @@ An actual assault perpetrated by an intentional threat source that attempts to a
 *Related Term(s): passive attack*
 ####active content
 Software that is able to automatically carry out or trigger actions without the explicit intervention of a user.
-####Advanced Persistent Threat
+####Advanced Persistent Threat (APT)
 An adversary that possesses sophisticated levels of expertise and significant resources which allow it to create opportunities to achieve its objectives by using multiple attack vectors (e.g., cyber, physical, and deception).
 ####adversary
 An individual, group, organization, or government that conducts or has the intent to conduct detrimental activities.
@@ -46,6 +46,8 @@ A characteristic or distinctive pattern that can be searched for or that can be 
 *Related Term(s): attack pattern*
 ####attack surface
 The set of ways in which an adversary can enter a system and potentially cause damage. An information system's characteristics that permit an adversary to probe, attack, or maintain presence in the information system.
+
+*Related Term(s): attack(able) surface area*
 ####attacker
 An individual, group, organization, or government that executes an attack. A party acting with malicious intent to compromise an information system.
 
@@ -113,8 +115,8 @@ The effect of an event, incident, or occurrence. In cybersecurity, the effect of
 ####Continuity of Operations Plan
 A document that sets forth procedures for the continued performance of core capabilities and critical operations during any disruption or potential disruption.
 
-*Related Term(s): Business Continuity Plan, Disaster Recovery Plan, Contingency Plan*
-####critical infrastructure
+*Related Term(s): Business Continuity Plan (BCP), Disaster Recovery Plan (DR, DRP), Contingency Plan*
+####critical infrastructure (CI)
 The systems and assets, whether physical or virtual, so vital to society that the incapacity or destruction of such may have a debilitating impact on the security, economy, public health or safety, environment, or any combination of these matters.
 
 *Related Term(s): key resource*
@@ -158,8 +160,12 @@ The interconnected information infrastructure of interactions among persons, pro
 An electronic information and communications systems and services and the information contained therein. The information and communications systems and services composed of all hardware and software that process, store, and communicate information, or any combination of all of these elements:  Processing includes the creation, access, modification, and destruction of information.  Storage includes paper, magnetic, electronic, and all other media types.  Communications include sharing and distribution of information.
 ####cybersecurity
 The activity or process, ability or capability, or state whereby information and communications systems and the information contained therein are protected from and/or defended against damage, unauthorized use or modification, or exploitation. Strategy, policy, and standards regarding the security of and operations in cyberspace, and encompass[ing] the full range of threat reduction, vulnerability reduction, deterrence, international engagement, incident response, resiliency, and recovery policies and activities, including computer network operations, information assurance, law enforcement, diplomacy, military, and intelligence missions as they relate to the security and stability of the global information and communications infrastructure.
+
+*Related Term(s): cyber security, security*
 ####cyberspace
 The interdependent network of information technology infrastructures, that includes the Internet, telecommunications networks, computer systems, and embedded processors and controllers.
+
+*Related Term(s): The Internet*
 #D
 ####data aggregation
 The process of gathering and combining data from different sources, so that the combined data reveals new information. The new information is more sensitive than the individual data elements themselves and the person who aggregates the data was not granted access to the totality of the information.
@@ -179,7 +185,7 @@ The property that data is complete, intact, and trusted and has not been modifie
 The result of unintentionally or accidentally deleting data, forgetting where it is stored, or exposure to an unauthorized party.
 
 *Related Term(s): data leakage, data theft*
-####data loss prevention
+####data loss prevention (DLP)
 A set of procedures and mechanisms to stop sensitive data from leaving a security boundary.
 
 *Related Term(s): data loss, data theft, data leak*
@@ -207,13 +213,13 @@ A generic term encompassing decode and decipher.
 The process of transforming ciphertext into its original plaintext. The process of converting encrypted data back into its original form, so it can be understood.
 
 *Synonym(s): decode, decrypt, decipher*
-####denial of service
+####denial of service (DoS)
 An attack that prevents or impairs the authorized use of information system resources or services.
 ####digital forensics
 The processes and specialized techniques for gathering, retaining, and analyzing system-related data (digital evidence) for investigative purposes. Cybersecurity work where a person: Collects, processes, preserves, analyzes, and presents computer-related evidence in support of network vulnerability, mitigation, and/or criminal, fraud, counterintelligence or law enforcement investigations.
 
-*Synonym(s): computer forensics, forensics*
-####digital rights management
+*Synonym(s): computer forensics, forensics, digital forensics and incident response (DFIR)*
+####digital rights management (DRM)
 A form of access control technology to protect and manage use of digital content or devices in accordance with the content or device provider's intentions.
 ####digital signature
 A value computed with a cryptographic process using a private key and then appended to a data object, thereby digitally signing the data.
@@ -221,7 +227,7 @@ A value computed with a cryptographic process using a private key and then appen
 *Related Term(s): electronic signature*
 ####disruption
 An event which causes unplanned interruption in operations or functions for an unacceptable length of time.
-####distributed denial of service
+####distributed denial of service (DDoS)
 A denial of service technique that uses numerous systems to perform the attack simultaneously.
 
 *Related Term(s): denial of service, botnet*
@@ -248,7 +254,7 @@ The generic term encompassing encipher and encode.
 The process of transforming plaintext into ciphertext. Converting data into a form that cannot be easily understood by unauthorized people.
 
 *Synonym(s): encode, encrypt, encipher*
-####enterprise risk management
+####enterprise risk management (ERM)
 A comprehensive approach to risk management that engages people, processes, and systems across an organization to improve the quality of decision making for managing risks that may hinder an organizations ability to achieve its objectives. Involves identifying mission dependencies on enterprise capabilities, identifying and prioritizing risks due to defined threats, implementing countermeasures to provide both a static risk posture and an effective dynamic response to active threats; and assessing enterprise performance against threats and adjusts countermeasures as necessary.
 
 *Related Term(s): risk management, integrated risk management, risk*
@@ -271,6 +277,12 @@ The inability of a system or component to perform its required functions within 
 A capability to limit network traffic between networks and/or information systems. A hardware/software device or a software program that limits network traffic according to a set of rules of what access is and is not allowed or authorized.
 ####forensics
 *Synonym(s): digital forensics*
+# G #
+
+#### (grey, gray) list ####
+A list of entities that neither considered trustworthy or untrustworthy. Care should be used when granting access or privileges.
+
+*Related Term(s): blacklist, whitelist, greylist, graylist*
 #H
 ####hacker
 A person skilled with the use of computers that uses his talents to gain knowledge. There are three classifications of hackers: 
@@ -278,6 +290,8 @@ A person skilled with the use of computers that uses his talents to gain knowled
 * White-hat (hacking for the enjoyment of exploration) 
 * Black-hat (hacking to find exploits and system weaknesses) , and
 * Grey-hat (someone who is a little of both)
+
+The pejorative use of the term *hacker* should not be used. Instead, when referring to a malicious attacker, use the term *attacker* or *threat actor*.
 
 *Related Term(s): attacker, threat actor*
 ####hash value
@@ -295,7 +309,7 @@ A process of applying a mathematical algorithm against a set of data to produce 
 A man-made threat achieved through exploitation of the information and communications technology (ICT) systems supply chain, including acquisition processes.
 
 *Related Term(s): supply chain, threat*
-####identity and access management
+####identity and access management (IAM)
 The methods and processes used to manage subjects and their authentication and authorizations to access specific objects.
 ####impact
 *Synonym(s): consequence*
@@ -305,18 +319,22 @@ An occurrence that actually or potentially results in adverse consequences to (a
 *Related Term(s): event*
 ####incident management
 The management and coordination of activities associated with an actual or potential occurrence of an event that may result in adverse consequences to information or information systems.
-####incident response
+####incident response (IR)
 The activities that address the short-term, direct effects of an incident and may also support short-term recovery. Cybersecurity work where a person: Responds to crisis or urgent situations within the pertinent domain to mitigate immediate and potential threats; uses mitigation, preparedness, and response and recovery approaches, as needed, to maximize survival of life, preservation of property, and information security. Investigates and analyzes all relevant response activities.
 
 *Synonym(s): response*
 
-*Related Term(s): recovery*
+*Related Term(s): recovery, digital forensics and incident response (DFIR), forensics*
 ####incident response plan
 A set of predetermined and documented procedures to detect and respond to a cyber incident.
 ####indicator
 An occurrence or sign that an incident may have occurred or may be in progress.
 
-*Related Term(s): precursor*
+*Related Term(s): precursor, indicator of compromise (IoC)*
+####indicator of compromise (IoC)
+Derived data related to a particular incident or used as additional proof that an incident may have occurred or may be in progress.
+
+*Related Term(s): precursor, indicator*
 ####Industrial Control System (ICS)
 An information system used to control industrial processes such as manufacturing, product handling, production, and distribution or to control infrastructure assets.
 
@@ -325,7 +343,7 @@ An information system used to control industrial processes such as manufacturing
 Any information technology, equipment, or interconnected system or subsystem of equipment that processes, transmits, receives, or interchanges data or information.
 
 *Related Term(s): information technology*
-####information assurance
+####information assurance (IA)
 The measures that protect and defend information and information systems by ensuring their availability, integrity, and confidentiality.
 
 *Related Term(s): information security*
@@ -339,7 +357,7 @@ An exchange of data, information, and/or knowledge to manage risks or respond to
 The ability of an information system to: (1) continue to operate under adverse conditions or stress, even if in a degraded or debilitated state, while maintaining essential operational capabilities; and (2) recover effectively in a timely manner.
 
 *Related Term(s): resilience*
-####information technology
+####information technology (IT)
 Any equipment or interconnected system or subsystem of equipment that processes, transmits, receives, or interchanges data or information.
 
 *Related Term(s): information and communication(s) technology*
@@ -367,6 +385,8 @@ An unauthorized act of bypassing the security mechanisms of a network or informa
 *Synonym(s): penetration*
 ####intrusion detection
 The process and methods for analyzing information from networks and information systems to determine if a security breach or security violation has occurred.
+
+*Related Term(s): intrusion detection system*
 ####investigation
 A systematic and formal inquiry into a qualified threat or incident using digital forensics and perhaps other traditional criminal inquiry techniques to determine the events that transpired and to collect evidence. Cybersecurity work where a person: Applies tactics, techniques, and procedures for a full range of investigative tools and processes to include but not limited to interview and interrogation techniques, surveillance, counter surveillance, and surveillance detection, and appropriately balances the benefits of prosecution versus intelligence gathering.
 ####IT asset
@@ -385,14 +405,14 @@ Software or hardware that tracks keystrokes and keyboard events, usually surrept
 
 *Related Term(s): spyware*
 #L
-#### Label ####
+#### label ####
 The identification of data with an agreed upon classification.
-#### Laggards ####
+#### laggards ####
 The minority group (roughly 16 percent) of the target population, which is the last group to try or adopt a new product.
-#### Loss 
+#### loss 
 Unrecoverable and usually unanticipated and non-recurring removal of, or decrease in, an asset or resource.
 #M
-####machine learning
+####machine learning (ML)
 A field concerned with designing and developing artificial intelligence algorithms for automated knowledge discovery and innovation by information systems.
 ####macro virus
 A type of malicious code that attaches itself to documents and uses the macro programming capabilities of the documents application to execute, replicate, and spread or propagate itself.
@@ -488,7 +508,8 @@ Ransomware is a type of malware that restricts access to the infected computer s
 The activities after an incident or event to restore essential services and operations in the short and medium term and fully restore all capabilities in the longer term.
 ####Red Team
 A group authorized and organized to emulate a potential adversarys attack or exploitation capabilities against an enterprises cybersecurity posture.
-####Related Term(s): Blue Team, White Team
+
+*Related Term(s): Blue Team, White Team*
 ####Red Team exercise
 An exercise, reflecting real-world conditions, that is conducted as a simulated attempt by an adversary to attack or exploit vulnerabilities in an enterprise's information systems.
 
@@ -560,7 +581,7 @@ A generic name for a computerized system that is capable of gathering and proces
 A system of organizations, people, activities, information and resources, for creating and moving products including product components and/or services from suppliers through to their customers.
 
 *Related Term(s): supply chain risk management*
-####Supply Chain Risk Management
+####Supply Chain Risk Management (SCRM)
 The process of identifying, analyzing, and assessing supply chain risk and accepting, avoiding, transferring or controlling it to an acceptable level considering associated costs and benefits of any actions taken.
 
 *Related Term(s): supply chain*
