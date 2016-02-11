@@ -4,6 +4,16 @@ An actual assault perpetrated by an intentional threat source that attempts to l
 *Related Term(s): active attack*
 ####password
 A string of characters (letters, numbers, and other symbols) used to authenticate an identity or to verify access authorization.
+#### Payment Card Industry (PCI) ####
+The payment card industry (PCI) denotes the debit, credit, prepaid, e-purse, ATM, and POS cards and associated businesses.
+
+*Related Term(s): Payment Card Industry Data Security Standard, PCI-DSS*
+#### Payment Card Industry Data Security Standard (PCI-DSS) ####
+The Payment Card Industry Data Security Standard (PCI DSS) is a proprietary information security standard for organizations that handle branded credit cards from the major card schemes including Visa, MasterCard, American Express, Discover, and JCB. Private label cards – those which aren't part of a major card scheme – are not included in the scope of the PCI DSS.
+
+The PCI Standard is mandated by the card brands and administered by the Payment Card Industry Security Standards Council. The standard was created to increase controls around cardholder data to reduce credit card fraud. Validation of compliance is performed annually, either by an external Qualified Security Assessor (QSA) that creates a Report on Compliance (ROC) for organizations handling large volumes of transactions, or by Self-Assessment Questionnaire (SAQ) for companies handling smaller volumes.
+
+*Related Term(s): Payment Card Industry, PCI, PCI-DSS, Qualified Security Assessor (QSA), Self-Assessment Questionnaire (SAQ)*
 ####pen test
 A colloquial term for penetration test or penetration testing.
 

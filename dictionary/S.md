@@ -8,6 +8,10 @@ The use of information technology in place of manual processes for cyber inciden
 *Synonym(s): incident*
 ####security policy
 A rule or set of rules that govern the acceptable use of an organization's information and services to a level of acceptable risk and the means for protecting the organization's information assets. A rule or set of rules applied to an information system to provide security services.
+####Self-Assessment Questionnaire (SAQ)
+The Self-Assessment Questionnaire (SAQ) is a document that merchants are required to complete every year and submit to their Acquiring Bank. 
+
+*Related Term(s): Payment Card Industry, PCI, PCI-DSS, Qualified Security Assessor (QSA)*
 ####signature
 A recognizable, distinguishing pattern. Types of signatures: attack signature, digital signature, electronic signature.
 ####situational awareness
